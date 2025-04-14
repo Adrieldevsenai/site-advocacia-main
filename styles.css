@@ -13,9 +13,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: gray;
-    min-width: min-content;
-    max-width: max-content;
+    
 }
 
 body img {
@@ -55,8 +53,7 @@ nav > a:hover {
 }
 
 main {
-    min-width: min-content;
-    max-width: max-content;
+    
     margin: auto;
     padding: 30px;
     background-color: white;
@@ -65,15 +62,27 @@ main {
 
 main p {
     margin: 15px 0px;
-    text-align: justify;
+    text-align: center;
     text-indent: 30px;
     font-size: 1em;
-    line-height: 2em;
+    
+}
+
+div.quadrado {
+
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    
+    
 }
 
 
+    
 footer {
-    background-color: #353535;
+    background-color: #35353598;
     color: white;
     text-align: center;
 }
