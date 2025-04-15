@@ -71,7 +71,16 @@ main p {
 
 main h2 {
     background-color: black;
-    background-position: 10%;
+    margin: auto;
+    text-align: auto;
+}
+
+div.sobre p {
+    font-size: 25px;
+}
+
+div.sobre li {
+    font-size: 20px;
 }
 
 div.quadrado {
@@ -86,12 +95,12 @@ div.quadrado {
 
 }
 
-div.contato {
-    background-color: #353535;
-    padding: 30px;
-    color: white;
-}
+div.quadrado p {
+    
+    margin: 100px;
+    font-weight: bolder;
 
+}
 
 
 div#q1 {
@@ -113,6 +122,14 @@ div#q3 {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+div.contato {
+    background-color: #353535;
+    padding: 30px;
+    color: white;
+    border-radius: 10px;
+    max-width: 100%;
 }
 
     
