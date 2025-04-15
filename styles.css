@@ -99,6 +99,7 @@ div.quadrado p {
     
     margin: 100px;
     font-weight: bolder;
+    text-align: center;
 
 }
 
@@ -107,6 +108,7 @@ div#q1 {
     background-image: url(direito\ civil.jpg);
     background-position: center center;
     background-repeat: no-repeat;
+    background-size: cover;
     
 }
 
